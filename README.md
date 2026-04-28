@@ -40,15 +40,16 @@ It should use MySQL as Database and Smarty as template engine. This website must
 
 ## Roudmap
 
-- [ ] Docker infrastructure
-    - [ ] Docker file for the App
-    - [ ] Docker compose file with next containere
-        - [ ] Web server container to host our solution
-        - [ ] MySQL container for Database
+- [x] Docker infrastructure
+    - [x] Docker file for the App
+    - [x] Docker compose file with next containere
+        - [x] Web server container to host our solution
+        - [x] MySQL container for Database
 - [ ] Router
     - [ ] Basic Routes
     - [ ] Dynamic Routes (Posts)
 - [ ] Connect Smarty template engine
+- [ ] Create Database Singletone
 - [ ] Create Database migrations
 - [ ] Create Database Modules for Post and Category
 - [ ] Create Category Controller
