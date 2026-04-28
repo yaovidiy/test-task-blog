@@ -13,6 +13,9 @@
             "email": "yaovdiy@gmail.com"
         }
     ],
+    
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+      "php": ">=8.1"
+    }
 }
