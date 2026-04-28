@@ -45,9 +45,9 @@ It should use MySQL as Database and Smarty as template engine. This website must
     - [x] Docker compose file with next containere
         - [x] Web server container to host our solution
         - [x] MySQL container for Database
-- [ ] Router
-    - [ ] Basic Routes
-    - [ ] Dynamic Routes (Posts)
+- [x] Router
+    - [x] Basic Routes
+    - [x] Dynamic Routes (Posts)
 - [ ] Connect Smarty template engine
 - [ ] Create Database Singletone
 - [ ] Create Database migrations
