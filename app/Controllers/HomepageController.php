@@ -2,12 +2,15 @@
 declare(strict_types= 1);
 
 namespace App\Controllers;
+use App\Controllers\BaseController;
 
-class HomepageController 
+class HomepageController extends BaseController
 {
+
     public function index()
     {
-        echo 'Helo homepage! ';
+        $this->assign('name', 'Ted');
+        $this->display('index.tpl');
     }
 
     public function show(string $name)
