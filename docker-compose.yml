@@ -1,0 +1,40 @@
+services:
+  # PHP Service
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: app
+    volumes:
+      - .:/var/www/html
+    networks:
+      - app-network
+
+  # Web Server (Nginx)
+  webserver:
+    image: nginx:alpine
+    container_name: webserver
+    ports:
+      - "8080:80"
+    volumes:
+      - .:/var/www/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - app-network
+
+  # Database Service
+  db:
+    image: mysql:8.4 # Using LTS or latest stable
+    container_name: db
+    restart: always
+    environment:
+      MYSQL_DATABASE: my_app
+      MYSQL_ROOT_PASSWORD: root_password
+    ports:
+      - "3306:3306"
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
