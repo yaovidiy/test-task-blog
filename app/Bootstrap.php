@@ -5,6 +5,7 @@ require __DIR__ . '/../vendor/autoload.php';
 
 use App\Router;
 use App\Controllers\HomepageController;
+use App\Controllers\CategoryController;
 
 $router = Router::getRouter();
 
@@ -13,8 +14,8 @@ $router->get(
     [HomepageController::class, 'index']
 );
 $router->get(
-    '/post/{name}',
-    [HomepageController::class, 'show']
+    '/category/{slug}',
+    [CategoryController::class, 'listAllCategoryPosts']
 );
 
 $router->dispatch();
