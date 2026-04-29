@@ -1,2 +1,4 @@
 vendor
 .env
+app/Views/cache/*
+app/Views/templates_c/*

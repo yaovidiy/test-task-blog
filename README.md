@@ -49,7 +49,7 @@ It should use MySQL as Database and Smarty as template engine. This website must
     - [x] Basic Routes
     - [x] Dynamic Routes (Posts)
 - [x] Connect Smarty template engine
-- [ ] Create Database Singletone
+- [x] Create Database Connection
 - [ ] Create Database migrations
 - [ ] Create Database Modules for Post and Category
 - [ ] Create Category Controller
