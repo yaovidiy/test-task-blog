@@ -38,7 +38,7 @@ It should use MySQL as Database and Smarty as template engine. This website must
     - Show full information about article
     - Show block with 3 similar articles
 
-## Roudmap
+## Roadmap
 
 - [x] Docker infrastructure
     - [x] Docker file for the App
@@ -52,7 +52,7 @@ It should use MySQL as Database and Smarty as template engine. This website must
 - [x] Create Database Connection
 - [x] Create Database migrations
 - [x] Create Database Modules for Post and Category
-- [ ] Create Category Controller
+- [x] Create Category Controller
 - [ ] Create Post Controller
 - [x] Create Layout view
 - [ ] Create Homapage view
