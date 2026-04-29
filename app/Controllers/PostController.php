@@ -15,7 +15,8 @@ class PostController extends BaseController
 
         $postData = $postModel->getPostData((int)$id);
 
-        $this->assign('post', $postData);
+        $this->assign('post', $postData['post']);
+        $this->assign('similar_posts', $postData['similar']);
 
         $this->setCaching(\Smarty\Smarty::CACHING_OFF);
 
