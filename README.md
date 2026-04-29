@@ -55,8 +55,8 @@ It should use MySQL as Database and Smarty as template engine. This website must
 - [x] Create Category Controller
 - [ ] Create Post Controller
 - [x] Create Layout view
-- [ ] Create Homapage view
-- [ ] Create Category view
+- [x] Create Homapage view
+- [s] Create Category view
 - [ ] Create Post view
 - [x] Create Seed
 
