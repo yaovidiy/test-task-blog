@@ -21,9 +21,4 @@ class HomepageController extends BaseController
         $this->assign('categories', $grouppedCategories);
         $this->display('index.tpl');
     }
-
-    public function show(string $name)
-    {
-        echo('Post name is '. $name);
-    }
 }
