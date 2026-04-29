@@ -99,7 +99,7 @@
 
         <nav class="pagination">
             {if $pagginatedPosts.has_prev}
-                <a href="?page={$pagginatedPosts.current_page - 1}">« Previous</a>
+                <a href="?page={$pagginatedPosts.current_page - 1}&latest={$show_latest}">« Previous</a>
             {else}
                 <span class="disabled">« Previous</span>
             {/if}
@@ -108,12 +108,12 @@
                 {if $i == $pagginatedPosts.current_page}
                     <span class="current-page">{$i}</span>
                 {else}
-                    <a href="?page={$i}">{$i}</a>
+                    <a href="?page={$i}&latest={$show_latest}">{$i}</a>
                 {/if}
             {/for}
 
             {if $pagginatedPosts.has_next}
-                <a href="?page={$pagginatedPosts.current_page + 1}">Next »</a>
+                <a href="?page={$pagginatedPosts.current_page + 1}&latest={$show_latest}">Next »</a>
             {else}
                 <span class="disabled">Next »</span>
             {/if}

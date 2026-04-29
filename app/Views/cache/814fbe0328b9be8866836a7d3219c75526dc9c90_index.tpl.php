@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 5.8.0, created on 2026-04-29 12:33:29
+/* Smarty version 5.8.0, created on 2026-04-29 13:43:50
   from 'file:index.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCached()->isFresh($_smarty_tpl, array (
   'version' => '5.8.0',
-  'unifunc' => 'content_69f1fa9962d7e3_71670375',
+  'unifunc' => 'content_69f20b1608bcf4_66410345',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -30,7 +30,7 @@ if ($_smarty_tpl->getCached()->isFresh($_smarty_tpl, array (
   ),
   'cache_lifetime' => 3600,
 ))) {
-function content_69f1fa9962d7e3_71670375 (\Smarty\Template $_smarty_tpl) {
+function content_69f20b1608bcf4_66410345 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = '/var/www/html/app/Views/templates';
 ?>
 <html lang="en">
@@ -114,7 +114,7 @@ $_smarty_current_dir = '/var/www/html/app/Views/templates';
                         </small>
 
                         <small>
-                            Views: 932
+                            Views: 947
                         </small>
                     </div>
                     <p>
@@ -133,7 +133,7 @@ $_smarty_current_dir = '/var/www/html/app/Views/templates';
                         </small>
 
                         <small>
-                            Views: 842
+                            Views: 843
                         </small>
                     </div>
                     <p>
@@ -152,7 +152,7 @@ $_smarty_current_dir = '/var/www/html/app/Views/templates';
                         </small>
 
                         <small>
-                            Views: 808
+                            Views: 809
                         </small>
                     </div>
                     <p>
