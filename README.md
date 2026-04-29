@@ -51,14 +51,12 @@ It should use MySQL as Database and Smarty as template engine. This website must
 - [x] Connect Smarty template engine
 - [x] Create Database Connection
 - [x] Create Database migrations
-- [ ] Create Database Modules for Post and Category
+- [x] Create Database Modules for Post and Category
 - [ ] Create Category Controller
 - [ ] Create Post Controller
-- [ ] Create Layout view
+- [x] Create Layout view
 - [ ] Create Homapage view
 - [ ] Create Category view
 - [ ] Create Post view
-- [ ] Create Seed Model
-- [ ] Create Seed View
-- [ ] Create Seed view
+- [x] Create Seed
 

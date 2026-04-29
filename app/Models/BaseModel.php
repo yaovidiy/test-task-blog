@@ -5,7 +5,7 @@ use App\Config\Database;
 
 class BaseModel
 {
-    private $pdo;
+    protected $pdo;
 
     public function __construct()
     {
